@@ -142,7 +142,7 @@ export default class TextBubbles extends EventEmitter {
         this.labelLink.innerHTML = '<ion-icon name="logo-linkedin"></ion-icon>';
         this.labelLink2 = document.createElement('a');
         this.labelLink2.className = 'git';
-        this.labelLink2.href = 'https://www.instagram.com/ole_.a/';
+        this.labelLink2.href = 'https://github.com/OleAndresen';
         this.labelLink2.target = '_blank';
         this.labelLink2.innerHTML = '<ion-icon name="logo-github"></ion-icon>';
         this.labelLink3 = document.createElement('a');

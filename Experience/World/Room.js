@@ -53,7 +53,7 @@ export default class Room{
             }
             if(child.name === "Door") {
                 child.userData.interactable = true;
-            }   
+            }
             this.roomChildren[child.name.toLowerCase()] = child;
         });
 
